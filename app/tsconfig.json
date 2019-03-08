@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "preserveConstEnums": true,
+        "jsx": "react",
+        "removeComments": true,
+        "sourceMap": true,
+        "allowJs": false,
+        "outDir": "bin",
+        // "rootDir": "./src",
+        "rootDirs": [
+            "./src",
+            "../lib/component",
+        ]
+    },
+    "exclude": [
+        "node_modules",
+    ]
+}
